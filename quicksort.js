@@ -3,6 +3,7 @@ function quicksort(arr) {
        return arr;
    }
    let left = [];
+   debugger;
    let right = [];
    let pivot = arr[0];
    for (let i=1; i<arr.length; i++) {
@@ -15,3 +16,4 @@ function quicksort(arr) {
     }
    return quicksort(left).concat(pivot, quicksort(right));
 }
+quicksort();
